@@ -5,6 +5,12 @@ __author__ = 'Bryan Perozzi'
 __email__ = 'bperozzi@cs.stonybrook.edu'
 __version__ = '1.0.0'
 
+"""
+NOTICE:
+
+This file was modified from the original deepwalk source in order to
+allow deepwalk to be used as a Python module.
+"""
 
 def fit(input_file, num_walks=10, dimensions=64, workers=1, output_file=None):
     """
